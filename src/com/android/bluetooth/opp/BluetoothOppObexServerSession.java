@@ -189,7 +189,7 @@ public class BluetoothOppObexServerSession extends ServerRequestHandler implemen
         }
         boolean isWhitelisted = BluetoothOppManager.getInstance(mContext).
                 isWhitelisted(destination);
-        boolean acceptAllFilesIsEnabled = 1;
+        boolean acceptAllFilesIsEnabled = true;
 
         try {
             boolean pre_reject = false;
